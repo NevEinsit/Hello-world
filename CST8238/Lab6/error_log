@@ -1,0 +1,12 @@
+[21-Feb-2020 16:45:30 UTC] PHP Warning:  include(/elements/Header.php): failed to open stream: No such file or directory in /home/zpcraftc/public_html/CST8238/Lab6/index.php on line 9
+[21-Feb-2020 16:45:30 UTC] PHP Warning:  include(/elements/Header.php): failed to open stream: No such file or directory in /home/zpcraftc/public_html/CST8238/Lab6/index.php on line 9
+[21-Feb-2020 16:45:30 UTC] PHP Warning:  include(): Failed opening '/elements/Header.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/zpcraftc/public_html/CST8238/Lab6/index.php on line 9
+[21-Feb-2020 16:45:30 UTC] PHP Warning:  include(/elements/Menu.php): failed to open stream: No such file or directory in /home/zpcraftc/public_html/CST8238/Lab6/index.php on line 10
+[21-Feb-2020 16:45:30 UTC] PHP Warning:  include(/elements/Menu.php): failed to open stream: No such file or directory in /home/zpcraftc/public_html/CST8238/Lab6/index.php on line 10
+[21-Feb-2020 16:45:30 UTC] PHP Warning:  include(): Failed opening '/elements/Menu.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/zpcraftc/public_html/CST8238/Lab6/index.php on line 10
+[21-Feb-2020 16:45:30 UTC] PHP Warning:  include(/elements/Content.php): failed to open stream: No such file or directory in /home/zpcraftc/public_html/CST8238/Lab6/index.php on line 11
+[21-Feb-2020 16:45:30 UTC] PHP Warning:  include(/elements/Content.php): failed to open stream: No such file or directory in /home/zpcraftc/public_html/CST8238/Lab6/index.php on line 11
+[21-Feb-2020 16:45:30 UTC] PHP Warning:  include(): Failed opening '/elements/Content.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/zpcraftc/public_html/CST8238/Lab6/index.php on line 11
+[21-Feb-2020 16:45:30 UTC] PHP Warning:  include(/elements/Footer.php): failed to open stream: No such file or directory in /home/zpcraftc/public_html/CST8238/Lab6/index.php on line 12
+[21-Feb-2020 16:45:30 UTC] PHP Warning:  include(/elements/Footer.php): failed to open stream: No such file or directory in /home/zpcraftc/public_html/CST8238/Lab6/index.php on line 12
+[21-Feb-2020 16:45:30 UTC] PHP Warning:  include(): Failed opening '/elements/Footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/zpcraftc/public_html/CST8238/Lab6/index.php on line 12

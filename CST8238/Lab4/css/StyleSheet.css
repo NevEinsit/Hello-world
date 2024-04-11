@@ -1,0 +1,98 @@
+#header{
+  padding:10px;
+  background-color: #8D8741;
+  text-align: center;
+  font-size:2vw;
+  color: #FBFFD1;
+}
+#menu{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: left;
+  font-family: 'Raleway', sans-serif;
+  width: 20%;
+  height: 50vw;
+  overflow: auto;
+  background-color: #659DBD;
+}
+#menu ul{
+  font-weight: bold;
+  font-size: 2vw;
+}
+#menu ul li{
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 75%;
+  line-height: 3vw;
+}
+#menu ul li a{
+  color: #F0FFFF;
+  text-decoration: none;
+}
+
+#menu nav ul li.link:hover{
+  background-color: #40E0D0;
+  font-weight: 800;
+}
+#content{
+  margin-left: 21%;
+  margin-top: 10px;
+  padding:10px;
+  background-color: #FBEEC1;
+}
+#none{
+  font-size: 0vw;
+}
+
+h4.Example-title{
+  font-family: serif;
+  text-decoration: underline;
+  font-size: 120%;
+}
+p.Example-description{
+  font-family: sans-serif;
+}
+figure{
+  position:relative;
+}
+#caption1{
+  position:absolute;
+  top: 350px;
+  left: 50px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight:100;
+  font-size:200%;
+}
+#caption2{
+  position:absolute;
+  top: 350px;
+  left: 315px;
+  color: red;
+  font-family: 'Raleway', sans-serif;
+  font-weight:100;
+  font-size:200%;
+}
+#footer{
+  clear:left;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #BC986A;
+
+}
+#footer p{
+  text-align: right;
+  font-size:1vw;
+  color: #696969;
+  line-height: 0vw;
+}
+[src]{
+  padding: 1px;
+  border: 3px double #FF6347;
+}
+#id-example{
+  background-color: rgba(255, 0, 0, 0.5);
+}
+.Example-description span{
+  background-color: rgba(255, 0, 255, 0.5);
+}

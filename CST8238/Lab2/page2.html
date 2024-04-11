@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Input page</title>
+  </head>
+  <header>
+    <h1>Info Input<sup>*</sup></h1>
+    <p><font face="Arial">*This is a sample registraion page for some website</font></p>
+  </header>
+
+  <style media="screen">
+    body{
+      background-color:#DCDCDC;
+      margin:20px;
+    }
+  </style>
+  <nav>
+    <a href="index.html">Parent Lab2 page</a>
+  </nav>
+  <body>
+    <p id="demo"></p>
+    <div class="input" align="center">
+      <br><label for="first-name">First Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="text" name="first-name" placeholder="John" id="first-name" required>
+      <br><label for="last-name">Last Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="text" name="last-name" placeholder="Doe" id="last-name" required>
+
+        <div>
+            <br><label for="gender-male">Male:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </label>
+            <input type="radio" name="gender-choice" id="gender-male">
+            <br><label for="gender-female">Female:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="radio" name="gender-choice" id="gender-female">
+            <br><label for="gender-other">Other:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="radio" name="gender-choice" id="gender-other">
+        </div>
+
+
+      <br><br><label for="birthday">Birthday:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="date" name="birthday" id="birthday">
+
+      <br><br><label for="telephone">Tel:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="tel" name="telephone" placeholder="XXXXXXXXXX" id="telephone" required>
+      <br><br><label for="email">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="email" name="email" placeholder="abc@email.com" id="email" required>
+      <br><br><label for="page">Personal Page:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="url" name="page" placeholder="https://github.com/XXXX" id="page">
+
+      <br><br><label for="interest">Interest:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="text" name="interest" id="interest" list="interests">
+      <datalist id="interests">
+        <option value="Music">
+        <option value="Game">
+        <option value="Photography">
+        <option value="Movie">
+        <option value="Sport">
+        <option value="Read">
+        <option value="Paint">
+      </datalist>
+
+      <br><br><label for="custom">How do you rate your last choice made (1 - 100):</label>
+      <br>Bad<input type="range" name="custom" id="custom" min="1" max="100">Good
+
+      <br><br><label for="favorate-day">Your favorate day of one week:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="number" name="favorate-day" id="favorate-day" min="1" max="7">
+
+    </div>
+
+  </body>
+  <footer>
+    <br><i style="color:#696969;font-size:12px">Copyright &copy; 2020 Wenbo Chen</i>
+    <br><a href="mailto:w.chen.nev@gmail.com" style="font-size:12px">Contact me</a>
+  </footer>
+</html>

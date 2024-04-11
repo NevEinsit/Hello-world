@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Lab 10 - XML, JavaScript and JSON</title>
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+<script type="text/javascript">
+
+
+function convertXMLtoJSON() {
+
+
+	//Retrieving value from XML files
+	xmlhttp = new XMLHttpRequest();
+  // Load the file
+  xmlhttp.open("GET", "Books.xml", false);
+  xmlhttp.send();
+
+
+
+  xmlDoc=xmlhttp.responseXML;
+
+  // Extract values
+  books = xmlDoc.getElementsByTagName("book");
+
+  var author = new Array(books.length);
+  var title = new Array(books.length);
+  var genre = new Array(books.length);
+  var price = new Array(books.length);
+  var publish_date = new Array(books.length);
+  var description = new Array(books.length);
+  if(books){
+    for(var i = 0; i < books.length; i++){
+      author[i] = books[i].getElementsByTagName("author")[0].textContent;
+      title[i] = books[i].getElementsByTagName("title")[0].textContent;
+      genre[i] = books[i].getElementsByTagName("genre")[0].textContent;
+      price[i] = books[i].getElementsByTagName("price")[0].textContent;
+      publish_date[i] = books[i].getElementsByTagName("publish_date")[0].textContent;
+      description[i] = books[i].getElementsByTagName("description")[0].textContent;
+    }
+  }
+
+  //Write code to create an array of JSON objects equivalent to the provided XML file (Each book info is an instance of a JSON object).
+  JSON_books = new Array(books.length);
+  for(var i = 0; i < books.length; i++){
+    JSON_books[i] = {"author":author[i], "title":title[i], "genre":genre[i], "price":price[i], "publish_date":publish_date[i],"description":description[i]};
+  }
+	//Write Javascript loop statement to display the elements of the array of JSON objects
+
+  var output = "";
+
+  for(var i = 0; i < books.length; i++){
+    output += "<tr><td><h4>BOOK(" + (i + 1) + ")</h4></td></tr>"
+    output += "<tr><td width=150>Author:</td><td>" + JSON_books[i].author + "</td></tr>";
+    output += "<tr><td>Title:</td><td>" + JSON_books[i].title + "</td></tr>";
+    output += "<tr><td>Genre:</td><td>" + JSON_books[i].genre + "</td></tr>";
+    output += "<tr><td>Price:</td><td>$" + JSON_books[i].price + "</td></tr>";
+    output += "<tr><td>Publish Date:</td><td>" + JSON_books[i].publish_date + "</td></tr>";
+    output += "<tr><td valign='top'>Description:</td><td>" + JSON_books[i].description + "</td></tr>";
+  }
+
+
+  document.getElementById("output").innerHTML = output;
+
+} // End function
+
+</script>
+</head>
+
+<body>
+<h2>Lab 10- Displaying Array of JSON objects </h2>
+  <h3>Catalog</h3>
+    <table id="output">
+        <tr>
+				      <td><input onclick="convertXMLtoJSON()" name="btnConvertJSON" id="btnConvertJSON" value="JSONDisplay!" type="button"></td>
+		    </tr>
+   </table>
+</body>
+</html>

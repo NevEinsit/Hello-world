@@ -1,0 +1,49 @@
+/*header*/
+.pageheader{
+  background-image: url("../media/pic/Blank-YouTube-Banner-Template.jpg");
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+/*side-menu*/
+.side-menu{
+  margin-top: 10px;
+  float:left;
+  background-color: #F1827D;
+  width:20%;
+}
+.side-menu ul{
+  list-style-type: none;
+}
+.side-menu li{
+  padding:10px;
+}
+.side-menu li:hover{
+  background-color: #F3B3AA;
+  color:black;
+  font-weight: bolder;
+}
+.side-menu a{
+  font-family: sans-serif;
+  color: #FAEBD7;
+  text-decoration: none;
+}
+
+/*footer*/
+.page-footer{
+  clear:left;
+  background-color: #F14860;
+  margin-top: 30px;
+  text-align: right;
+  color:white;
+  padding: 10px 30px 10px 10px;
+}
+
+/*content*/
+.content{
+  margin: 10px 0 10px 21%;
+  padding: 10px;
+  background-color: #FDF5E6;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Timetable</title>
+  </head>
+  <style media="screen">
+    table{
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    td{
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    th{
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    td.course{
+      text-align: center;
+      font-weight: bold;
+    }
+    td.CST8216{
+      background-color: #ADD8E6;
+    }
+    td.ENL2019T{
+      background-color: #00BFFF;
+    }
+    td.CST8234{
+      background-color: #FFD700;
+    }
+    td.CST8130{
+      background-color: #90EE90;
+    }
+    #emptyhead{
+      border: 0px;
+    }
+    table td:hover {
+      background-color: #A9A9A9;
+    }
+  </style>
+  <body>
+    <h1>Calendar</h1>
+    <nav>
+        <div align="center">
+          <p><font face="Arial" style="color:#A52A2A;" size="2">Links:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>
+
+          <font face="Arial" style="color:#A52A2A;" size="2">
+            <a href="index.html">Lab Homepage</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="ColRowSpan.html">CoRowSpan</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="Calendar.html">Calendar</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="../index.html">Homepage <b>(USE THIS TO ACCESS OTHER LABS)</b></a>
+          </font>
+        </p>
+        </div>
+    </nav>
+    <table>
+      <col width="5%">
+      <col width="10%">
+      <col width="10%">
+      <col width="10%">
+      <col width="10%">
+      <col width="10%">
+
+      <tr>
+        <th id="emptyhead"></th>
+        <th>MON</th>
+        <th>TUE</th>
+        <th>WED</th>
+        <th>THU</th>
+        <th>FRI</th>
+      </tr>
+
+      <tr>
+        <td><b>07:00</b></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td><b>08:00</b></td>
+        <td rowspan="2" class="CST8216 course">CST8216</td>
+        <td></td>
+        <td rowspan="2" class="ENL2019T course">ENL2019T</td>
+        <td rowspan="2" class="CST8234 course">CST8234</td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td><b>09:00</b></td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td><b>10:00</b></td>
+        <td></td>
+        <td></td>
+        <td rowspan="2" class="CST8234 course">CST8234</td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td><b>11:00</b></td>
+        <td rowspan="2" class="CST8216 course">CST8216</td>
+        <td class="CST8234 course">CST8234</td>
+        <td rowspan="2" class="CST8130 course">CST8130</td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td><b>12:00</b></td>
+        <td rowspan="2" class="CST8130 course">CST8130</td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td><b>13:00</b></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td><b>14:00</b></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+
+  </body>
+  <footer align="right">
+  <hr>
+  <i style="color:#696969;">Copyright &copy; 2020 Wenbo Chen</i>
+  <br><a href="mailto:w.chen.nev@gmail.com">Contact me</a>
+  </footer>
+</html>

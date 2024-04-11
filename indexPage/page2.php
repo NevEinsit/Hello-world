@@ -81,6 +81,7 @@ if(isset($_POST['num'])){
         <div class="col-sm-5 lang">
           <p><b>Programming languages.....</b></p>
           <ul>
+            <li>Python</li>
             <li>Java</li>
             <li>HTML/CSS</li>
             <li>C/C++</li>

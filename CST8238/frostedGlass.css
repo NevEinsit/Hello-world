@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+.mainHolder {
+  width: 1520px;
+  height: 700px;
+  background-image: url('background.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+h1 {
+  z-index: 1;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  position: relative;
+  font-size: 7vw;
+  font-weight: 100;
+  margin: 50px;
+}
+
+ul.project{
+  margin-left: 250px ;
+  line-height: 100%;
+  z-index: 1;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  position: relative;
+  font-size: 35px;
+  font-weight: 100;
+}
+a{
+  margin-left: 10px;
+  line-height: 150%;
+  font-family: 'Raleway', sans-serif;
+  color: orange;
+  position: relative;
+  font-size: 25px;
+  font-weight: 100;
+}

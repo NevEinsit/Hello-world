@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calendar</title>
+  </head>
+  <style media="screen">
+    #calendar{
+      border: solid 1px black;
+      border-collapse: collapse;
+    }
+    td{
+      border: solid 1px black;
+      border-collapse: collapse;
+    }
+    td.NON{
+      border: solid 1px black;
+      border-collapse: collapse;
+      color: grey;
+    }
+    td.HOLIDAY{
+      background-color: #F08080;
+    }
+    td.legend{
+      border: solid 0px black;
+      border-collapse: collapse;
+    }
+  </style>
+  <body>
+    <h1>Calendar</h1>
+    <nav>
+        <div align="center">
+          <p><font face="Arial" style="color:#A52A2A;" size="2">Links:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>
+
+          <font face="Arial" style="color:#A52A2A;" size="2">
+            <a href="index.html">Lab Homepage</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="ColRowSpan.html">CoRowSpan</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="Timetable.html">TimeTable</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="../index.html">Homepage <b>(USE THIS TO ACCESS OTHER LABS)</b></a>
+          </font>
+        </p>
+        </div>
+    </nav>
+
+    <table id="calendar">
+      <col width="10%">
+      <col width="10%">
+      <col width="10%">
+      <col width="10%">
+      <col width="10%">
+      <col width="10%">
+      <col width="10%">
+
+      <tr>
+        <td colspan="7" align="center">JAN, 2020</td>
+      </tr>
+
+      <tr>
+        <td>SUN</td>
+        <td>MON</td>
+        <td>TUE</td>
+        <td>WED</td>
+        <td>THU</td>
+        <td>FRI</td>
+        <td>SAT</td>
+      </tr>
+
+      <tr>
+        <td class="NON HOLIDAY">29</td>
+        <td class="NON">30</td>
+        <td class="NON">31</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td class="HOLIDAY">4</td>
+      </tr>
+
+      <tr>
+        <td class="HOLIDAY">5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+        <td class="HOLIDAY">11</td>
+      </tr>
+
+      <tr>
+        <td class="HOLIDAY">12</td>
+        <td>13</td>
+        <td>14</td>
+        <td>15</td>
+        <td>16</td>
+        <td>17</td>
+        <td class="HOLIDAY">18</td>
+      </tr>
+
+      <tr>
+        <td class="HOLIDAY">19</td>
+        <td>20</td>
+        <td>21</td>
+        <td>22</td>
+        <td>23</td>
+        <td>24</td>
+        <td class="HOLIDAY">25</td>
+      </tr>
+
+      <tr>
+        <td class="HOLIDAY">26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td class="NON HOLIDAY">1</td>
+      </tr>
+
+    </table>
+
+    <br><br>
+    <table>
+      <col width="50">
+      <col width="50">
+
+      <tr>
+        <th align="left">Legend:</th>
+      </tr>
+
+      <tr>
+        <td class="legend">Holidays:&nbsp;&nbsp;&nbsp;</td>
+        <td class="legend" style="background-color:#F08080"></td>
+      </tr>
+    </table>
+  </body>
+  <footer align="right">
+  <hr>
+  <i style="color:#696969;">Copyright &copy; 2020 Wenbo Chen</i>
+  <br><a href="mailto:w.chen.nev@gmail.com">Contact me</a>
+  </footer>
+</html>
