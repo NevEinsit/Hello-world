@@ -1,0 +1,31 @@
+html {
+  scroll-behavior: smooth;
+}
+
+figure img{
+  margin-top: 10px;
+  border: 2px;
+}
+figcaption{
+  font-style: italic;
+  color: grey;
+}
+
+.intro h2{
+  font-family: 'Raleway', sans-serif;
+  color: #008B8B;
+  position: relative;
+  font-size: 4vw;
+  font-weight: 600;
+}
+
+.intro{
+  padding: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgba(255,253,208,0.3);
+}
+.intro ul{
+  font-size: 1.2vw;
+  line-height: 2vw;
+}

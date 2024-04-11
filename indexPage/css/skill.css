@@ -1,0 +1,27 @@
+h2{
+  color:#FFD700;
+  margin: 20px;
+}
+.container p{
+  color:white;
+}
+
+.container ul{
+  color:white;
+}
+body{
+  height:100%;
+  background-image: url('../media/pic/Moon.jpg');
+  background-repeat: no-repeat;
+  background-position: ;
+}
+
+.lang{
+  padding:20px;
+  background-color: rgba(128,128,128,0.5);
+}
+
+.proj{
+  padding:20px;
+  background-color: rgba(128,128,128,0.5);
+}
